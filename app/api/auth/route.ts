@@ -1,6 +1,6 @@
 // src/app/api/auth/route.ts
 import { NextResponse } from "next/server";
-import Ably from "ably/promises";
+import * as Ably from "ably";
 
 export async function GET() {
   try {
